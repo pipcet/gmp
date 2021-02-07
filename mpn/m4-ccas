@@ -89,7 +89,7 @@ if test -z "$ASM"; then
   exit 1
 fi
 
-# Libtool adds it's own -o when sending output to .libs/foo.o, but not
+# Libtool adds its own -o when sending output to .libs/foo.o, but not
 # when just wanting foo.o in the current directory.  We need an
 # explicit -o in both cases since we're assembling tmp-foo.s.
 #
